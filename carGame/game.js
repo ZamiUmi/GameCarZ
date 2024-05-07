@@ -166,13 +166,13 @@
             score++; // счет
             gameScore.innerText = score;
             coin.style.display = 'none';
-            coinInfo.visible = false; // визибл и есть тру. как только кализия случается, этого элемента не видно
+            coinInfo.visible = false; 
 
         }
 
         elementAnimation(arrow, arrowInfo, -600);
         if(arrowInfo.visible && hasCollision(carInfo, arrowInfo)){
-            arrow.style.display = 'none'; // скрыть после колизии
+            arrow.style.display = 'none'; 
             arrowInfo.visible = false;
             danger.style.opacity = 0.2; // сделать обьезды прозрачными
             dangerInfo.visible = false; 
@@ -272,7 +272,7 @@
         const coinXRight = elem2Info.coords.x + elem2Info.width;
         
         //y
-        if(carYTop > coinYBottom || carYBottom < coinYTop) { //клиз. нет когда верх машины, больше низ монеты 
+        if(carYTop > coinYBottom || carYBottom < coinYTop) {  
             return false;
         }
 
