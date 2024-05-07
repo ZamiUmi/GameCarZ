@@ -187,11 +187,11 @@
                 speed -= 10; // возвращать скорость
 
                 setTimeout(()=> {
-                    dangerInfo.visible = true; // включить колизии
+                    dangerInfo.visible = true; 
                     arrowInfo.ignoreAppearance=false;
                     dangerInfo.ignoreAppearance=false;
-                }, 500) // дать еще пол секунды
-            }, 3000); // как долго таймер будет работать секунд
+                }, 500) 
+            }, 3000); 
 
         }
 
