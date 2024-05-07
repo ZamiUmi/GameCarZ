@@ -286,7 +286,7 @@
 
     function cancelAnimations(){
         cancelAnimationFrame(animationId)
-        cancelAnimationFrame(carInfo.move.top); // остановить анимацию машины
+        cancelAnimationFrame(carInfo.move.top); 
         cancelAnimationFrame(carInfo.move.bottom);
         cancelAnimationFrame(carInfo.move.left);
         cancelAnimationFrame(carInfo.move.right);
