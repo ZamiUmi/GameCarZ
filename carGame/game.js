@@ -4,7 +4,7 @@
     let animationId = null;
     let speed = 3;
 
-    let score = 0
+    let score = 0;
 
     const car = document.querySelector('.car');
     const carInfo = {
