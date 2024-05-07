@@ -285,7 +285,7 @@
     }
 
     function cancelAnimations(){
-        cancelAnimationFrame(animationId)
+        cancelAnimationFrame(animationId);
         cancelAnimationFrame(carInfo.move.top); 
         cancelAnimationFrame(carInfo.move.bottom);
         cancelAnimationFrame(carInfo.move.left);
