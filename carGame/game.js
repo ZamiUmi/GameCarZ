@@ -223,9 +223,9 @@
         if(newYCoord > window.innerHeight){ // Если наш элемент уходит за рамки то,
             newYCoord = elemInitialYCoord; // перемещаем вверх на его же размер
 
-            const direction = parseInt(Math.random() * 2)
-            const maxXCoord = (roadWidth + 1 - elemInfo.width)
-            const randomXCoord = parseInt(Math.random() * maxXCoord)
+            const direction = parseInt(Math.random() * 2);
+            const maxXCoord = (roadWidth + 1 - elemInfo.width);
+            const randomXCoord = parseInt(Math.random() * maxXCoord);
 
             if(!elemInfo.ignoreAppearance){
                 elem.style.display = 'initial';
