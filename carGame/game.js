@@ -108,10 +108,10 @@
         const newY = carInfo.coords.y -5;
 
         if(newY < 0){ // не пропускает вверх
-            return
+            return;
         }
         carInfo.coords.y = newY;
-        carMove(carInfo.coords.x, newY)
+        carMove(carInfo.coords.x, newY);
         carInfo.move.top =  requestAnimationFrame(carMoveToTop);
     }
     function carMoveToBottom(){
