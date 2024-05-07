@@ -116,7 +116,7 @@
     }
     function carMoveToBottom(){
         const newY = carInfo.coords.y +5;
-        if((newY + carInfo.height) > roadHeight){ // не пропускает вниз
+        if((newY + carInfo.height) > roadHeight){ 
             return;
         }
         carInfo.coords.y = newY;
